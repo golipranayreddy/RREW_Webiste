@@ -1,0 +1,56 @@
+
+.column{
+    width: 25%;
+    padding: 1%;
+}
+
+.InnerText{
+     color: brown;
+}
+
+@media screen and (max-width: 900px) {
+   .column{
+       width: 50%;
+   }
+  
+
+   .CardBody {
+        padding: 0%;
+        margin: 0%;    
+   }
+
+     /* .CardFooter {
+          padding: 0%;
+          margin: 0%;
+     } */
+
+     .InnerText{
+          color: brown;
+     }
+
+
+}
+
+  @media screen and (max-width: 550px) {
+     .column{
+          width: 50%;
+     }
+     
+     
+     .CardBody {
+          padding: 0%;
+          margin: 0%;    
+          font-size: small;
+     
+     }
+
+     .CardFooter {
+          padding: 0%;
+          margin: 0%;
+     }
+
+     .InnerText{
+          color: brown;
+     }
+     
+  }

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">RREW</string>
+    <string name="title_activity_main">RREW</string>
+    <string name="package_name">com.RREW.app</string>
+    <string name="custom_url_scheme">com.RREW.app</string>
+</resources>

@@ -1,0 +1,123 @@
+.NavbarItems {
+    background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(127, 186, 224) 100%);
+    /* height: 100px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    padding: 1%;
+}
+
+.navbar-logo {
+    color: #fff;
+    justify-self: start;
+    /* margin-left: 15%; */
+    cursor: pointer;
+    width: 380px;
+    /* width: 100%; */
+}
+
+.nav-links {
+    color: rgb(148, 51, 51);
+    text-decoration: none;
+    padding: 0.2rem 0.5rem;
+}
+
+.nav-menu {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    /* grid-gap: 10px;
+    /* list-style: none; */
+    text-align: center;
+    /* width: 70vw; */
+    justify-content: end;
+    /* margin-right: 2rem; */
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    padding-right: 0px;
+    margin-right: 0px;
+}
+
+.leftSide {
+    width: 30%;
+
+}
+
+.rightSide{
+    /* background-color: #fff; */
+    width: 60%;
+    align-items: center;
+    padding-right: 0px;
+    margin-right: 0px;
+}
+.rightSide button{
+    display: none;
+    margin-left: 5%;
+}
+
+.rightSide #hidden{
+    display: flex;
+}
+
+@media only screen and (max-width: 1050px){
+    .nav-menu {
+        display: grid;
+        grid-template-columns: repeat(5, auto);
+        /* grid-gap: 10px;
+        /* list-style: none; */
+        text-align: center;
+        /* width: 70vw; */
+        justify-content: end;
+        /* margin-right: 2rem; */
+        font-weight: bolder;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: medium;
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+    .navbar-logo {
+        color: #fff;
+        justify-self: start;
+        cursor: pointer;
+        width: 280px;
+    }
+    /* .navbar-logo {
+        color: #fff;
+        justify-self: start;
+       
+        cursor: pointer;
+        
+        width: 100%;
+    } */
+
+}
+
+@media only screen and (max-width: 750px){
+    .rightSide button{
+        display: flex;
+        margin-left: 5%;
+    }
+
+    .nav-menu {
+        display: none;
+
+
+    }
+    .rightSide #hidden{
+        display: flex;
+        flex-direction:column;
+        text-align: end;
+    }
+    .navbar-logo {
+        color: #fff;
+        justify-self: start;
+
+        cursor: pointer;
+       
+        width: 250px;
+        /* width: 280px; */
+    }
+
+}
+
